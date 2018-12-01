@@ -1,0 +1,79 @@
+baseurl = "https://7chanho.github.io"
+DefaultContentLanguage = "ko"
+title = "김찬호의 기술 블로그"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  homeTitle = " " # Set a different text for the header on the home page
+  subtitle = " "
+  logo = "images/chanhokim.jpeg" # Expecting square dimensions
+  favicon = "images/chanhokim.jpeg"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  since = 2018
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Chanho Kim"
+  website = "7chanho.github.io"
+  email = "7chanho@gmail.com"
+  facebook = "7chanho"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "7chanho"
+  #gitlab = "username"
+  #bitbucket = "username"
+  #twitter = "username"
+  #reddit = "username"
+  linkedin = "7chanho"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  instagram = "7chanho"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #500px = "username"
+
+[[menu.main]]
+    name = "포스트"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "카테고리"
+    url = "tags"
+    weight = 2
