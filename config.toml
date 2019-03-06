@@ -42,6 +42,7 @@ pygmentsCodefencesGuessSyntax = true
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
+
 [Author]
   name = "Chanho Kim"
   website = "7chanho.github.io"
@@ -77,3 +78,5 @@ pygmentsCodefencesGuessSyntax = true
     name = "카테고리"
     url = "tags"
     weight = 2
+
+software
